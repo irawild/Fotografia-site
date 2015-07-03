@@ -370,6 +370,16 @@ button{
 }
 
 
+/* = Panels
+-------------------------------------------------------------- */
+.panel{
+	border:0!important;
+	box-shadow: 0 0px 2px rgba(0,0,0,.4);
+}
+.panel-heading, .panel-footer{
+	background-color: inherit;
+	border-color: rgba(0,0,0,.1)!important;
+}
 .panel-sq, .panel-sq .panel-heading, .panel-sq .panel-footer{
 	border-radius:0;
 }
@@ -396,11 +406,19 @@ iframe{
 
 /* Background colour styles */
 
+.bgc-black{
+	background-color:#000000;
+}
 .bgc-white{
 	background-color:#ffffff;
 }
 .bgc-outer-space{
 	background-color:#47454B;
+}
+/* Text colour styles */
+
+.tc-black{
+	color:#000000!important;
 }
 /* Button colour styles */
 
@@ -410,7 +428,15 @@ iframe{
 }
 .btn-outer-space:hover{
 	background-color:#3b393e;
-	!important}
+	!important}/* Link colour styles */
+
+.ltc-white{
+	color:#ffffff!important;
+}
+.ltc-white:hover{
+	color:#ffffff!important;
+}
+
 /* Bloc image backgrounds */
 
 .bg-1658513-659696540841698-7959788043947751848-o{
@@ -418,6 +444,18 @@ iframe{
 }
 .bg-camera-overlay{
 	background-image:url("img/camera-overlay.png");
+}
+.bg-camera-overlay{
+	background-image:url('img/camera-overlay.png');
+}
+.bg-11406219-652464601564892-2240907246997481572-o{
+	background-image:url('img/11406219_652464601564892_2240907246997481572_o.jpg');
+}
+.bg-10847205-564479870363366-1513521659351101462-o{
+	background-image:url('img/10847205_564479870363366_1513521659351101462_o.jpg');
+}
+.bg-mountainsdusk{
+	background-image:url('img/mountainsdusk.jpg');
 }
 
 
