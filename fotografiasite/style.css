@@ -59,6 +59,31 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 }
 
 
+/* Group Styles */
+
+.bloc-group{
+	width:100%;
+	display:table;
+	table-layout: fixed;
+}
+.bloc-group .bloc{
+	display: table-cell;
+	vertical-align: top;
+}
+.bloc-tile-2{
+	width:50%;
+}
+.bloc-tile-3{
+	width:33.33333333%;
+}
+.bloc-tile-4{
+	width:25%;
+}
+.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+	width:100%;
+}
+
+
 /* Background Effects */
 
 .b-parallax{
@@ -394,6 +419,13 @@ button{
 }
 
 
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
 
 /* iFrame */
 
@@ -436,6 +468,12 @@ iframe{
 .ltc-white:hover{
 	color:#ffffff!important;
 }
+/* Icon colour styles */
+
+.icon-black{
+	color:#000000!important;
+	border-color:#000000!important;
+}
 
 /* Bloc image backgrounds */
 
@@ -446,16 +484,22 @@ iframe{
 	background-image:url("img/camera-overlay.png");
 }
 .bg-camera-overlay{
-	background-image:url('img/camera-overlay.png');
+	background-image:url("img/camera-overlay.png");
 }
 .bg-11406219-652464601564892-2240907246997481572-o{
-	background-image:url('img/11406219_652464601564892_2240907246997481572_o.jpg');
+	background-image:url("img/11406219_652464601564892_2240907246997481572_o.jpg");
 }
 .bg-10847205-564479870363366-1513521659351101462-o{
-	background-image:url('img/10847205_564479870363366_1513521659351101462_o.jpg');
+	background-image:url("img/10847205_564479870363366_1513521659351101462_o.jpg");
+}
+.bg-mountainsdusk{
+	background-image:url("img/mountainsdusk.jpg");
 }
 .bg-mountainsdusk{
 	background-image:url('img/mountainsdusk.jpg');
+}
+.bg-camera-overlay{
+	background-image:url('img/camera-overlay.png');
 }
 
 
